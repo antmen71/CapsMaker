@@ -28,6 +28,7 @@ namespace capsMaker
         {
             try
             {
+                //Load pictures
                 OpenFileDialog open = new OpenFileDialog();
                 open.Filter = "Image Files(*.jpg; *.jpeg; *.gif; *.bmp)|*.jpg; *.jpeg; *.gif; *.bmp";
                 if (open.ShowDialog() == DialogResult.OK)
@@ -59,7 +60,7 @@ namespace capsMaker
             }
             catch (Exception)
             {
-                throw new ApplicationException("Resim Yüklenemedi");
+                throw new ApplicationException("No pic loaded!");
             }
         }
 
@@ -84,7 +85,7 @@ namespace capsMaker
         {
             if (resimVarmi == true)
             {
-
+                //insert caps background and text
                 int yukseklik = pictureBox1.Image.Height;
                 int yukseklik1 = pictureBox1.Height;
                 int bantYukseklik = yukseklik / 100 * 20;
@@ -134,6 +135,7 @@ namespace capsMaker
         {
             if (resimVarmi == true)
             {
+                //save file
                 saveFileDialog1.Filter = "Jpg Dosyası(*.jpg; *.jpeg)|*.jpg; *.jpeg|Gif Dosyası(*.gif)|*.gif|Bmp Dosyası (*.bmp)|*.bmp";
 
                 saveFileDialog1.AddExtension = true;
