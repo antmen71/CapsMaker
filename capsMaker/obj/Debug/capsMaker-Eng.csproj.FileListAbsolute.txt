@@ -1,0 +1,9 @@
+C:\Users\TRISORAN\Documents\Visual Studio 2013\Projects\capsMaker - Eng\capsMaker\bin\Debug\capsMaker.exe.config
+C:\Users\TRISORAN\Documents\Visual Studio 2013\Projects\capsMaker - Eng\capsMaker\obj\Debug\capsMaker.exe
+C:\Users\TRISORAN\Documents\Visual Studio 2013\Projects\capsMaker - Eng\capsMaker\obj\Debug\capsMaker.pdb
+C:\Users\TRISORAN\Documents\Visual Studio 2013\Projects\capsMaker - Eng\capsMaker\bin\Debug\capsMaker.exe
+C:\Users\TRISORAN\Documents\Visual Studio 2013\Projects\capsMaker - Eng\capsMaker\bin\Debug\capsMaker.pdb
+C:\Users\TRISORAN\Documents\Visual Studio 2013\Projects\capsMaker - Eng\capsMaker\obj\Debug\capsMaker-Eng.csprojResolveAssemblyReference.cache
+C:\Users\TRISORAN\Documents\Visual Studio 2013\Projects\capsMaker - Eng\capsMaker\obj\Debug\capsMaker.Form1.resources
+C:\Users\TRISORAN\Documents\Visual Studio 2013\Projects\capsMaker - Eng\capsMaker\obj\Debug\capsMaker.Properties.Resources.resources
+C:\Users\TRISORAN\Documents\Visual Studio 2013\Projects\capsMaker - Eng\capsMaker\obj\Debug\capsMaker-Eng.csproj.GenerateResource.Cache
