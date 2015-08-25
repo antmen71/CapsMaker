@@ -18,9 +18,7 @@ namespace capsMaker
         {
             InitializeComponent();
         }
-
-
-
+        
         bool resimVarmi;
         bool kirmiziFon;
 
@@ -60,7 +58,7 @@ namespace capsMaker
             }
             catch (Exception)
             {
-                throw new ApplicationException("No pic loaded!");
+                throw new ApplicationException("Please load an image.");
             }
         }
 
@@ -98,10 +96,7 @@ namespace capsMaker
                 System.Drawing.SolidBrush myBrush;
                 myBrush = new System.Drawing.SolidBrush(System.Drawing.Color.Red);
                 float fontSize = (float)numericUpDown1.Value;
-
-
-
-
+                
                 using (Graphics grp = Graphics.FromImage(pictureBox1.Image))
                 {
                     grp.FillRectangle(myBrush, rect);
@@ -125,12 +120,10 @@ namespace capsMaker
             else
             {
 
-                MessageBox.Show("Lütfen bir resim yükleyiniz");
+                MessageBox.Show("Please load an image.");
             }
         }
-
-
-
+        
         private void button3_Click(object sender, EventArgs e)
         {
             if (resimVarmi == true)
@@ -165,7 +158,7 @@ namespace capsMaker
             }
             else
             {
-                MessageBox.Show("Lütfen bir resim yükleyiniz");
+                MessageBox.Show("Please load an image.");
             }
 
         }
@@ -193,7 +186,7 @@ namespace capsMaker
 
             if (resimVarmi == false)
             {
-
+                MessageBox.Show("Please load an image.");
             }
 
             else
